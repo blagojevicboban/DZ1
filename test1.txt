@@ -1,0 +1,10 @@
+60,20
+Instagram,45,10
+YouTube,92,23
+TikTok,20,4
+Chrome,20,7
+WhatsApp,12,2
+Instagram,15,8
+Chrome,30,14
+TikTok,72,21
+Camera,60,20

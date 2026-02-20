@@ -1,0 +1,6 @@
+4
+Svetionik|5.5|500|325
+Albino|6.5|500|352
+Hoptopod|6.5|330|286
+Ayahuasca|6.0|500|352
+Hoptopod, Svetionik, Ayahuasca

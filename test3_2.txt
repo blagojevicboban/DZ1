@@ -1,0 +1,4 @@
+2
+Stella Artois|5.0|500|95
+Kronenburg Blanc|5.0|500|134
+Stella Artois, Stella Artois, Kronenburg Blanc, Stella Artois
