@@ -1,0 +1,8 @@
+30,10
+Safari,5,0
+Viber,87,29
+X,137,43
+Viber,50,14
+Safari,24,9
+Photos,35,11
+
