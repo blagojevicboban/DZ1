@@ -1,8 +1,7 @@
-import sys
-
 def ucitaj_podatke():
     try:
-        prvi_red = sys.stdin.readline()
+        ulaz = open(0, "r")
+        prvi_red = ulaz.readline()
         if not prvi_red:
             return None
             
@@ -22,7 +21,7 @@ def ucitaj_podatke():
             
         rekordi = []
         while True:
-            red = sys.stdin.readline()
+            red = ulaz.readline()
             if not red:  # EOF
                 break
             red = red.strip('\r\n')

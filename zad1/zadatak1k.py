@@ -1,13 +1,12 @@
-import sys
-
 def ucitaj_podatke():
     """
     Funkcija za učitavanje podataka sa standardnog ulaza prema specifikaciji zadatka.
     Vraća (min_vreme, min_baterija, rekordi) ili (None, None, None) u slučaju greške.
     """
     try:
+        ulaz = open(0, "r")
         # Čita prvi red sa ulaza koji sadrži minimalno vreme i minimalnu bateriju
-        prvi_red = sys.stdin.readline()
+        prvi_red = ulaz.readline()
         # Ako nema unosa (EOF), prekida i vraća None
         if not prvi_red:
             return None
@@ -37,7 +36,7 @@ def ucitaj_podatke():
         # Beskonačna petlja za čitanje preostalih linija, koja se prekida na prazan red ili EOF
         while True:
             # Čita jedan po jedan red sa ulaza
-            red = sys.stdin.readline()
+            red = ulaz.readline()
             
             # EOF (Kraj fajla/unosa) prekida petlju
             if not red:  
